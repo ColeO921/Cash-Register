@@ -51,6 +51,8 @@ namespace Cash_Register
                 subtotalOutput.Text = $"{subtotal.ToString("C")}";
                 taxOutput.Text = $"{taxAmount.ToString("C")}";
                 totalOutput.Text = $"{total.ToString("C")}";
+
+
             }
             catch
             {
